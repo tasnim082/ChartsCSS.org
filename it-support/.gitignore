@@ -1,0 +1,13 @@
+# Ignore error logs but keep .gitkeep
+*.log
+!.gitkeep
+
+# Ignore downloaded vendor assets but keep structure
+assets/vendor/bootstrap/css/*.css
+assets/vendor/bootstrap/css/*.map
+assets/vendor/bootstrap/js/*.js
+assets/vendor/bootstrap/js/*.map
+assets/vendor/bootstrap/fonts/*.woff
+assets/vendor/bootstrap/fonts/*.woff2
+assets/vendor/chartjs/*.js
+assets/vendor/jquery/*.js
